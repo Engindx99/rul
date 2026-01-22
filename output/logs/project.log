@@ -1,0 +1,176 @@
+2026-01-21 19:36:30 - EDA - INFO - Loading data from c:/Users/engin/deneme/data/raw for subset FD001...
+2026-01-21 19:36:30 - EDA - INFO - Train Shape: (20631, 26)
+2026-01-21 19:36:30 - EDA - INFO - Test Shape: (13096, 26)
+2026-01-21 19:36:30 - EDA - INFO - RUL Shape: (100, 1)
+2026-01-21 19:36:30 - EDA - INFO - Total Nulls in Train: 0
+2026-01-21 19:36:31 - EDA - INFO - 
+Checking for constant sensors (std=0):
+2026-01-21 19:36:31 - EDA - INFO - Constant Sensors: ['sensor_1', 'sensor_5', 'sensor_10', 'sensor_16', 'sensor_18', 'sensor_19']
+2026-01-21 19:36:32 - EDA - INFO - Saved sensor plot to output/plots
+2026-01-21 19:44:26 - Train - INFO - Using device: cuda
+2026-01-21 19:44:26 - Train - INFO - Loading Data...
+2026-01-21 19:44:26 - Train - INFO - Processing Data...
+2026-01-21 19:44:26 - Train - INFO - Using Features: ['sensor_2', 'sensor_3', 'sensor_4', 'sensor_6', 'sensor_7', 'sensor_8', 'sensor_9', 'sensor_11', 'sensor_12', 'sensor_13', 'sensor_14', 'sensor_15', 'sensor_17', 'sensor_20', 'sensor_21']
+2026-01-21 19:44:27 - Train - INFO - Train batches: 216, Val batches: 62
+2026-01-21 19:44:29 - Train - INFO - Starting Training...
+2026-01-21 19:44:32 - Train - INFO - Epoch 1 - Train RMSE: 59.6100 - Val RMSE: 42.0034
+2026-01-21 19:44:32 - Train - INFO - Saved Best Model
+2026-01-21 19:44:33 - Train - INFO - Epoch 2 - Train RMSE: 28.2754 - Val RMSE: 22.0897
+2026-01-21 19:44:33 - Train - INFO - Saved Best Model
+2026-01-21 19:44:34 - Train - INFO - Epoch 3 - Train RMSE: 17.3830 - Val RMSE: 16.4470
+2026-01-21 19:44:34 - Train - INFO - Saved Best Model
+2026-01-21 19:44:35 - Train - INFO - Epoch 4 - Train RMSE: 15.7566 - Val RMSE: 14.3326
+2026-01-21 19:44:35 - Train - INFO - Saved Best Model
+2026-01-21 19:44:37 - Train - INFO - Epoch 5 - Train RMSE: 15.1373 - Val RMSE: 14.5176
+2026-01-21 19:44:38 - Train - INFO - Epoch 6 - Train RMSE: 14.6377 - Val RMSE: 15.7468
+2026-01-21 19:44:39 - Train - INFO - Epoch 7 - Train RMSE: 14.5303 - Val RMSE: 14.7169
+2026-01-21 19:44:40 - Train - INFO - Epoch 8 - Train RMSE: 16.3787 - Val RMSE: 14.1773
+2026-01-21 19:44:40 - Train - INFO - Saved Best Model
+2026-01-21 19:44:41 - Train - INFO - Epoch 9 - Train RMSE: 14.1953 - Val RMSE: 16.5772
+2026-01-21 19:44:42 - Train - INFO - Epoch 10 - Train RMSE: 13.9467 - Val RMSE: 13.6101
+2026-01-21 19:44:42 - Train - INFO - Saved Best Model
+2026-01-21 19:44:43 - Train - INFO - Epoch 11 - Train RMSE: 13.8328 - Val RMSE: 13.2585
+2026-01-21 19:44:43 - Train - INFO - Saved Best Model
+2026-01-21 19:44:44 - Train - INFO - Epoch 12 - Train RMSE: 13.7543 - Val RMSE: 15.5957
+2026-01-21 19:44:45 - Train - INFO - Epoch 13 - Train RMSE: 13.5087 - Val RMSE: 14.0825
+2026-01-21 19:44:46 - Train - INFO - Epoch 14 - Train RMSE: 13.5278 - Val RMSE: 13.3026
+2026-01-21 19:44:47 - Train - INFO - Epoch 15 - Train RMSE: 13.3458 - Val RMSE: 14.6788
+2026-01-21 19:44:48 - Train - INFO - Epoch 16 - Train RMSE: 13.4676 - Val RMSE: 14.6568
+2026-01-21 19:44:49 - Train - INFO - Epoch 17 - Train RMSE: 13.3598 - Val RMSE: 13.1691
+2026-01-21 19:44:49 - Train - INFO - Saved Best Model
+2026-01-21 19:44:50 - Train - INFO - Epoch 18 - Train RMSE: 13.2289 - Val RMSE: 13.7939
+2026-01-21 19:44:51 - Train - INFO - Epoch 19 - Train RMSE: 13.2165 - Val RMSE: 13.5589
+2026-01-21 19:44:52 - Train - INFO - Epoch 20 - Train RMSE: 13.1284 - Val RMSE: 13.5601
+2026-01-21 19:44:53 - Train - INFO - Epoch 21 - Train RMSE: 13.2514 - Val RMSE: 15.1227
+2026-01-21 19:44:54 - Train - INFO - Epoch 22 - Train RMSE: 13.1795 - Val RMSE: 14.6034
+2026-01-21 19:44:55 - Train - INFO - Epoch 23 - Train RMSE: 12.9760 - Val RMSE: 13.2347
+2026-01-21 19:44:56 - Train - INFO - Epoch 24 - Train RMSE: 13.1127 - Val RMSE: 15.4810
+2026-01-21 19:44:57 - Train - INFO - Epoch 25 - Train RMSE: 12.8129 - Val RMSE: 14.4838
+2026-01-21 19:44:58 - Train - INFO - Epoch 26 - Train RMSE: 13.0998 - Val RMSE: 13.4088
+2026-01-21 19:44:59 - Train - INFO - Epoch 27 - Train RMSE: 12.7877 - Val RMSE: 14.3250
+2026-01-21 19:45:00 - Train - INFO - Epoch 28 - Train RMSE: 12.9126 - Val RMSE: 14.5425
+2026-01-21 19:45:01 - Train - INFO - Epoch 29 - Train RMSE: 12.9232 - Val RMSE: 13.8071
+2026-01-21 19:45:02 - Train - INFO - Epoch 30 - Train RMSE: 12.8857 - Val RMSE: 13.2973
+2026-01-21 19:45:03 - Train - INFO - Epoch 31 - Train RMSE: 12.5722 - Val RMSE: 14.2831
+2026-01-21 19:45:04 - Train - INFO - Epoch 32 - Train RMSE: 12.7158 - Val RMSE: 17.1176
+2026-01-21 19:45:05 - Train - INFO - Epoch 33 - Train RMSE: 12.6127 - Val RMSE: 14.7546
+2026-01-21 19:45:06 - Train - INFO - Epoch 34 - Train RMSE: 12.6113 - Val RMSE: 13.1363
+2026-01-21 19:45:06 - Train - INFO - Saved Best Model
+2026-01-21 19:45:07 - Train - INFO - Epoch 35 - Train RMSE: 12.5633 - Val RMSE: 14.2637
+2026-01-21 19:45:08 - Train - INFO - Epoch 36 - Train RMSE: 12.6170 - Val RMSE: 13.2268
+2026-01-21 19:45:09 - Train - INFO - Epoch 37 - Train RMSE: 12.6673 - Val RMSE: 14.5785
+2026-01-21 19:45:10 - Train - INFO - Epoch 38 - Train RMSE: 12.4351 - Val RMSE: 13.6992
+2026-01-21 19:45:11 - Train - INFO - Epoch 39 - Train RMSE: 12.5246 - Val RMSE: 15.2389
+2026-01-21 19:45:12 - Train - INFO - Epoch 40 - Train RMSE: 12.5056 - Val RMSE: 14.6024
+2026-01-21 19:45:13 - Train - INFO - Epoch 41 - Train RMSE: 12.3996 - Val RMSE: 12.9170
+2026-01-21 19:45:13 - Train - INFO - Saved Best Model
+2026-01-21 19:45:14 - Train - INFO - Epoch 42 - Train RMSE: 12.2840 - Val RMSE: 14.0585
+2026-01-21 19:45:15 - Train - INFO - Epoch 43 - Train RMSE: 12.2654 - Val RMSE: 13.0987
+2026-01-21 19:45:16 - Train - INFO - Epoch 44 - Train RMSE: 12.4309 - Val RMSE: 13.6933
+2026-01-21 19:45:17 - Train - INFO - Epoch 45 - Train RMSE: 12.2438 - Val RMSE: 13.7927
+2026-01-21 19:45:18 - Train - INFO - Epoch 46 - Train RMSE: 12.2422 - Val RMSE: 15.4441
+2026-01-21 19:45:19 - Train - INFO - Epoch 47 - Train RMSE: 12.1590 - Val RMSE: 14.2822
+2026-01-21 19:45:20 - Train - INFO - Epoch 48 - Train RMSE: 12.0768 - Val RMSE: 14.5505
+2026-01-21 19:45:21 - Train - INFO - Epoch 49 - Train RMSE: 12.0015 - Val RMSE: 13.7225
+2026-01-21 19:45:23 - Train - INFO - Epoch 50 - Train RMSE: 11.9912 - Val RMSE: 14.0068
+2026-01-21 19:45:23 - Train - INFO - Training Complete.
+2026-01-21 19:52:40 - Eval - INFO - 
+Test RMSE: 15.3251
+2026-01-21 19:52:40 - Eval - INFO - Test NASA Score: 466.8064
+2026-01-21 19:52:40 - Eval - INFO - Saved prediction plot.
+2026-01-21 20:03:14 - Train - INFO - Using device: cuda
+2026-01-21 20:03:14 - Train - INFO - Loading Data...
+2026-01-21 20:03:15 - Train - INFO - Processing Data...
+2026-01-21 20:03:15 - Train - INFO - Using Features: ['sensor_2', 'sensor_3', 'sensor_4', 'sensor_6', 'sensor_7', 'sensor_8', 'sensor_9', 'sensor_11', 'sensor_12', 'sensor_13', 'sensor_14', 'sensor_15', 'sensor_17', 'sensor_20', 'sensor_21']
+2026-01-21 20:03:15 - Train - INFO - Train batches: 216, Val batches: 62
+2026-01-21 20:03:16 - Train - INFO - Starting Training...
+2026-01-21 20:03:17 - Train - INFO - Epoch 1 - Train RMSE: 58.3238 - Val RMSE: 42.1888
+2026-01-21 20:03:17 - Train - INFO - Saved Best Model
+2026-01-21 20:03:18 - Train - INFO - Epoch 2 - Train RMSE: 26.4782 - Val RMSE: 17.2780
+2026-01-21 20:03:18 - Train - INFO - Saved Best Model
+2026-01-21 20:03:19 - Train - INFO - Epoch 3 - Train RMSE: 17.1524 - Val RMSE: 18.8912
+2026-01-21 20:03:21 - Train - INFO - Epoch 4 - Train RMSE: 16.0749 - Val RMSE: 18.7704
+2026-01-21 20:03:22 - Train - INFO - Epoch 5 - Train RMSE: 15.4890 - Val RMSE: 17.5401
+2026-01-21 20:03:23 - Train - INFO - Epoch 6 - Train RMSE: 15.0003 - Val RMSE: 15.7345
+2026-01-21 20:03:23 - Train - INFO - Saved Best Model
+2026-01-21 20:03:24 - Train - INFO - Epoch 7 - Train RMSE: 14.8380 - Val RMSE: 13.8822
+2026-01-21 20:03:24 - Train - INFO - Saved Best Model
+2026-01-21 20:03:25 - Train - INFO - Epoch 8 - Train RMSE: 14.5047 - Val RMSE: 15.1552
+2026-01-21 20:03:26 - Train - INFO - Epoch 9 - Train RMSE: 14.3831 - Val RMSE: 13.8150
+2026-01-21 20:03:26 - Train - INFO - Saved Best Model
+2026-01-21 20:03:27 - Train - INFO - Epoch 10 - Train RMSE: 14.3845 - Val RMSE: 14.6905
+2026-01-21 20:03:28 - Train - INFO - Epoch 11 - Train RMSE: 13.9416 - Val RMSE: 18.8594
+2026-01-21 20:03:29 - Train - INFO - Epoch 12 - Train RMSE: 13.7782 - Val RMSE: 13.6998
+2026-01-21 20:03:29 - Train - INFO - Saved Best Model
+2026-01-21 20:03:30 - Train - INFO - Epoch 13 - Train RMSE: 13.6434 - Val RMSE: 18.6103
+2026-01-21 20:03:31 - Train - INFO - Epoch 14 - Train RMSE: 13.9376 - Val RMSE: 13.1057
+2026-01-21 20:03:31 - Train - INFO - Saved Best Model
+2026-01-21 20:03:32 - Train - INFO - Epoch 15 - Train RMSE: 13.5809 - Val RMSE: 15.9559
+2026-01-21 20:03:33 - Train - INFO - Epoch 16 - Train RMSE: 13.9614 - Val RMSE: 15.5072
+2026-01-21 20:03:34 - Train - INFO - Epoch 17 - Train RMSE: 13.4198 - Val RMSE: 13.8086
+2026-01-21 20:03:35 - Train - INFO - Epoch 18 - Train RMSE: 13.5647 - Val RMSE: 14.5712
+2026-01-21 20:03:36 - Train - INFO - Epoch 19 - Train RMSE: 13.4857 - Val RMSE: 14.0135
+2026-01-21 20:03:37 - Train - INFO - Epoch 20 - Train RMSE: 13.5707 - Val RMSE: 15.0544
+2026-01-21 20:03:38 - Train - INFO - Epoch 21 - Train RMSE: 13.4552 - Val RMSE: 13.3739
+2026-01-21 20:03:39 - Train - INFO - Epoch 22 - Train RMSE: 13.4384 - Val RMSE: 13.3735
+2026-01-21 20:03:40 - Train - INFO - Epoch 23 - Train RMSE: 13.0983 - Val RMSE: 13.5398
+2026-01-21 20:03:41 - Train - INFO - Epoch 24 - Train RMSE: 13.1427 - Val RMSE: 14.8443
+2026-01-21 20:03:42 - Train - INFO - Epoch 25 - Train RMSE: 13.2658 - Val RMSE: 13.1879
+2026-01-21 20:03:43 - Train - INFO - Epoch 26 - Train RMSE: 13.1662 - Val RMSE: 13.8473
+2026-01-21 20:03:43 - Train - INFO - Training Complete.
+2026-01-21 20:04:20 - Eval - INFO - 
+Test RMSE: 16.1304
+2026-01-21 20:04:20 - Eval - INFO - Test NASA Score: 493.6378
+2026-01-21 20:04:20 - Eval - INFO - Test R2 Score: 0.8493
+2026-01-21 20:04:20 - Eval - INFO - Saved prediction plot.
+2026-01-21 23:46:07 - Train - INFO - Using device: cuda
+2026-01-21 23:46:07 - Train - INFO - Loading Data...
+2026-01-21 23:46:07 - Train - INFO - Processing Data...
+2026-01-21 23:46:07 - Train - INFO - Using Features: ['sensor_2', 'sensor_3', 'sensor_4', 'sensor_6', 'sensor_7', 'sensor_8', 'sensor_9', 'sensor_11', 'sensor_12', 'sensor_13', 'sensor_14', 'sensor_15', 'sensor_17', 'sensor_20', 'sensor_21']
+2026-01-21 23:46:07 - Train - INFO - Train batches: 191, Val batches: 55
+2026-01-21 23:46:33 - Train - INFO - Using device: cuda
+2026-01-21 23:46:33 - Train - INFO - Loading Data...
+2026-01-21 23:46:33 - Train - INFO - Processing Data...
+2026-01-21 23:46:33 - Train - INFO - Using Features: ['sensor_2', 'sensor_3', 'sensor_4', 'sensor_6', 'sensor_7', 'sensor_8', 'sensor_9', 'sensor_11', 'sensor_12', 'sensor_13', 'sensor_14', 'sensor_15', 'sensor_17', 'sensor_20', 'sensor_21']
+2026-01-21 23:46:33 - Train - INFO - Train batches: 191, Val batches: 55
+2026-01-21 23:46:34 - Train - INFO - Starting Training...
+2026-01-21 23:46:36 - Train - INFO - Epoch 1 - Train RMSE: 55.6404 - Val RMSE: 42.5995
+2026-01-21 23:46:36 - Train - INFO - Saved Best Model
+2026-01-21 23:46:37 - Train - INFO - Epoch 2 - Train RMSE: 36.3856 - Val RMSE: 26.3032
+2026-01-21 23:46:37 - Train - INFO - Saved Best Model
+2026-01-21 23:46:38 - Train - INFO - Epoch 3 - Train RMSE: 24.0318 - Val RMSE: 17.6621
+2026-01-21 23:46:38 - Train - INFO - Saved Best Model
+2026-01-21 23:46:40 - Train - INFO - Epoch 4 - Train RMSE: 18.4377 - Val RMSE: 15.1926
+2026-01-21 23:46:40 - Train - INFO - Saved Best Model
+2026-01-21 23:46:41 - Train - INFO - Epoch 5 - Train RMSE: 17.2649 - Val RMSE: 13.2365
+2026-01-21 23:46:41 - Train - INFO - Saved Best Model
+2026-01-21 23:46:42 - Train - INFO - Epoch 6 - Train RMSE: 17.8909 - Val RMSE: 16.1600
+2026-01-21 23:46:43 - Train - INFO - Epoch 7 - Train RMSE: 16.1223 - Val RMSE: 12.2624
+2026-01-21 23:46:43 - Train - INFO - Saved Best Model
+2026-01-21 23:46:44 - Train - INFO - Epoch 8 - Train RMSE: 15.2083 - Val RMSE: 18.5702
+2026-01-21 23:46:45 - Train - INFO - Epoch 9 - Train RMSE: 15.1359 - Val RMSE: 13.8121
+2026-01-21 23:46:46 - Train - INFO - Epoch 10 - Train RMSE: 14.4754 - Val RMSE: 13.4014
+2026-01-21 23:46:47 - Train - INFO - Epoch 11 - Train RMSE: 13.4598 - Val RMSE: 23.6956
+2026-01-21 23:46:49 - Train - INFO - Epoch 12 - Train RMSE: 14.3100 - Val RMSE: 11.3790
+2026-01-21 23:46:49 - Train - INFO - Saved Best Model
+2026-01-21 23:46:50 - Train - INFO - Epoch 13 - Train RMSE: 13.9958 - Val RMSE: 12.5720
+2026-01-21 23:46:51 - Train - INFO - Epoch 14 - Train RMSE: 13.5704 - Val RMSE: 14.3068
+2026-01-21 23:46:52 - Train - INFO - Epoch 15 - Train RMSE: 13.2137 - Val RMSE: 15.9572
+2026-01-21 23:46:53 - Train - INFO - Epoch 16 - Train RMSE: 12.9116 - Val RMSE: 11.9611
+2026-01-21 23:46:54 - Train - INFO - Epoch 17 - Train RMSE: 12.9863 - Val RMSE: 22.6144
+2026-01-21 23:46:55 - Train - INFO - Epoch 18 - Train RMSE: 12.6380 - Val RMSE: 17.7432
+2026-01-21 23:46:56 - Train - INFO - Epoch 19 - Train RMSE: 12.1683 - Val RMSE: 12.1366
+2026-01-21 23:46:57 - Train - INFO - Epoch 20 - Train RMSE: 11.8794 - Val RMSE: 15.1810
+2026-01-21 23:46:58 - Train - INFO - Epoch 21 - Train RMSE: 12.1093 - Val RMSE: 15.2263
+2026-01-21 23:47:00 - Train - INFO - Epoch 22 - Train RMSE: 11.8053 - Val RMSE: 13.7758
+2026-01-21 23:47:01 - Train - INFO - Epoch 23 - Train RMSE: 11.9426 - Val RMSE: 11.6829
+2026-01-21 23:47:02 - Train - INFO - Epoch 24 - Train RMSE: 11.6655 - Val RMSE: 12.4357
+2026-01-21 23:47:03 - Train - INFO - Epoch 25 - Train RMSE: 11.2707 - Val RMSE: 11.9402
+2026-01-21 23:47:04 - Train - INFO - Epoch 26 - Train RMSE: 11.3617 - Val RMSE: 13.5451
+2026-01-21 23:47:05 - Train - INFO - Training Complete.
+2026-01-21 23:47:27 - Eval - WARNING - Mismatch in predictions (93) and true labels (100). Some short units might be skipped.
+2026-01-21 23:48:14 - Eval - INFO - 
+Test RMSE: 14.7054
+2026-01-21 23:48:14 - Eval - INFO - Test NASA Score: 357.3339
+2026-01-21 23:48:14 - Eval - INFO - Test R2 Score: 0.8715
+2026-01-21 23:48:14 - Eval - INFO - Saved prediction plot.
